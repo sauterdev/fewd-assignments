@@ -1,0 +1,258 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #01214c;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family:"Open-Sans", Helvetica, Arial, sans-serif;
+     background-color: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* Mast */
+.mast {
+  align-items: center;
+  background-color: #033048;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.mast h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.mast-navigation a {
+  color: yellow;
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/*Flex the two columns side by side*/
+
+.two-column-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*Left-column*/
+
+.left-page-column {
+  width: 700px;
+}
+
+/*articles*/
+.post-title{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.post-content {
+  color: #606161;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.post-content::first-letter {
+  float: left;
+  font-size: 250%;
+  margin: 0;
+  padding: 4px;
+}
+
+/*Not sure about this??*/
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.post-read-more {
+  color: #01214c;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 20px 0px 20px 500px;
+  text-decoration: none;
+}
+
+.post {
+  border-bottom: 1px solid #01214c
+  padding: 50px 10px 30px 0px;
+}
+
+/* Right column */
+
+.right-page-column {
+  margin-left: 20px;
+  margin-top: 35px;
+  width: 240px;
+}
+
+.sidebar-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+/*Nav bar*/
+.sidebar-links-nav {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-links-nav a {
+  color: #01214c;
+  font-size: 24px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.sidebar-links {
+  margin-bottom: 30px;
+}
+
+/*about info*/
+.sidebar-about-content {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 90%;
+}
+
+.learn-more {
+  color: #01214c;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sidebar-about{
+  margin-bottom: 60px;
+}
+
+/*Ad Space*/
+.ad-unit {
+  background-color: white;
+  height: 600px;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Sign up bar*/
+
+.yellow-bar {
+  align-items: center;
+  background-color: yellow;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+button {
+  background-color: navy;
+  border: #01214c;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 5px 30px;
+}
+
+/*Footer*/
+.keel {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-around;
+}
+.keel h2 {
+  color: yellow;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.keel p {
+  color: white;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.twitter {
+  margin-right: 20px;
+}

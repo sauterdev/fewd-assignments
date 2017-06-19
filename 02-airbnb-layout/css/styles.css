@@ -1,0 +1,206 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/*Header*/
+
+.airbnb-header {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.airbnb-logo-container, .airbnb-nav {
+  width: 150px;
+}
+
+.airbnb-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.airbnb-logo {
+  padding: 10px 30px;
+  width: 100px;
+}
+.airbnb-nav-element {
+  padding: 10px 30px;
+}
+
+/*Hero*/
+.airbnb-main-photo {
+  align-items: center;
+  background-image: url(../img/melbourne.jpg);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 550px;
+}
+
+.image-darken {
+  position: relative;
+}
+
+.image-darken:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+  background-color: rgba(0,0,0,0.4);
+  content: "";
+}
+
+.text-relative {
+  position: relative;
+}
+
+.airbnb-intro-content {
+  color: white;
+  width: 400px;
+  text-align: center;
+}
+
+.airbnb-intro-title {
+  margin-bottom: 5px;
+}
+
+.airbnb-intro-subtitle {
+  margin-bottom: 5px;
+}
+
+.airbnb-intro-button {
+  height: 30px;
+  width: 140px;
+  background-color: red;
+  border: 0;
+  border-bottom: 1px solid darkred;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+
+/*Middle*/
+.airbnb-middle {
+  align-items: center;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-between;
+  height: 225px;
+}
+
+.airbnb-middle-leftbox {
+  border: 1px solid #e9e9e9;
+  width: 48%;
+}
+
+.airbnb-middle-rightbox {
+  border: 1px solid #e9e9e9;
+  width: 48%;
+}
+
+.airbnb-middle-content-container {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 75px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.airbnb-middle-leftbox h1 {
+  font-size: 17px;
+  padding: 10px 0 0 10px;
+  background-color: #edefed;
+}
+
+.airbnb-middle-rightbox h1 {
+  font-size: 17px;
+  padding: 10px 0 0 10px;
+  background-color: #edefed;
+}
+
+/*Featured Neighborhoods*/
+.featured-neighborhoods {
+  height: 125px;
+}
+
+.featured-neighborhoods-content h1 {
+  padding-top: 30px;
+}
+
+.featured-neighborhoods-content h2 {
+  padding-bottom: 15px;
+}
+
+.featured-neighborhoods-content h1, .featured-neighborhoods-content h2 {
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+/*Location bar*/
+.locations {
+  align-items: center;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+}
+
+.locations-layout {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 31%;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.locations-one {
+  background-image: url(../img/fitzroy.jpg);
+  margin-left: .5%;
+}
+
+.locations-two {
+  background-image: url(../img/st-kilda.jpg);
+}
+
+.locations-three {
+  background-image: url(../img/central-business-district.jpg);
+  margin-right: .5%;
+}
+
+.location-descriptions {
+  align-items: center;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-descriptions-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31%;
+  color: black;
+  text-align: left;
+  background-color: #efefef;
+  padding: 10px 5px 10px 5px;
+  margin-top: 0;
+}
