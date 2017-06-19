@@ -52,6 +52,7 @@ body {
 }
 
 
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -97,6 +98,12 @@ footer {
   margin-left: 20px;
   text-decoration: none;
 }
+
+.mast-navigation a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
 
 /*Flex the two columns side by side*/
 
@@ -179,6 +186,11 @@ footer {
   font-size: 24px;
   font-weight: 300;
   text-decoration: none;
+}
+
+.sidebar-links-nav a:hover {
+  color: pink;
+  text-decoration: underline;
 }
 
 .sidebar-links {
