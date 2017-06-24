@@ -16,17 +16,19 @@
 	</head>
 	<body>
 		<div id="container">
+			<div class="mast-container">
+				<button class="return" id="reveal">Return</button>
 			<header class="mast">
-				<h1>Relaxr</h1>
+				<h1 id="hide">Relaxr</h1>
 				<nav class="mast-navigation">
-					<a href="#">About</a>
-					<a href="#">FAQ</a>
-					<a href="#">Team</a>
-					<a href="#">Contact Us</a>
-					<a href="#">Blog</a>
+					<a id="navOption" href="#">About</a>
+					<a id="navOption" href="#">FAQ</a>
+					<a id="navOption" href="#">Team</a>
+					<a id="navOption" href="#">Contact Us</a>
+					<a id="navOption" href="#">Blog</a>
 				</nav>
 			</header>
-
+			<div>
 		<div class="two-column-container">
 <!--Left page column-->
 		<section class="left-page-column">
@@ -76,7 +78,7 @@
 		</div> <!--Div to flex the two columns-->
 <!--Bar with button-->
 		<section class="yellow-bar">
-			<button>Sign Up Now!</button>
+			<button id="noInfo">Sign Up Now!</button>
 		</section>
 
 			<footer class="keel">
@@ -89,5 +91,11 @@
   		</div>
 			</footer>
 
+
+			<script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+			<script src="js/index.js"></script>
 	</body>
 </html>

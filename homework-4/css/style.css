@@ -89,6 +89,7 @@ footer {
   color: white;
   font-size: 36px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .mast-navigation a {
@@ -99,11 +100,23 @@ footer {
   text-decoration: none;
 }
 
-.mast-navigation a:hover {
-  color: pink;
+.link {
+  color: white;
+  font-size: 45px;
   text-decoration: underline;
 }
 
+/*JS style*/
+.return {
+  position: absolute;
+  z-index: -1;
+  margin-bottom: 10px;
+}
+
+.reveal {
+  position: fixed;
+  z-index: 1;
+}
 
 /*Flex the two columns side by side*/
 
@@ -116,6 +129,7 @@ footer {
 
 .left-page-column {
   width: 700px;
+  margin-top: 20px;
 }
 
 /*articles*/
