@@ -116,6 +116,7 @@ footer {
 .reveal {
   position: fixed;
   z-index: 1;
+  background-color: #033048;
 }
 
 /*Flex the two columns side by side*/
@@ -175,6 +176,9 @@ footer {
   padding: 50px 10px 30px 0px;
 }
 
+.more-blog {
+  display: none;
+}
 /* Right column */
 
 .right-page-column {
@@ -246,6 +250,24 @@ footer {
   height: 100px;
   justify-content: center;
   margin-top: 100px;
+}
+
+/*Hidden window for clicking on button*/
+.notification-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: -1;
+  background-color: white;
+  height: 90px;
+  padding: 0 10px;
+}
+
+/*JS classes*/
+.move-forward {
+  z-index: 1;
 }
 
 button {

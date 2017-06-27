@@ -17,15 +17,15 @@
 	<body>
 		<div id="container">
 			<div class="mast-container">
-				<button class="return" id="reveal">Return</button>
+				<button class="return" id="reveal">Relaxr</button>
 			<header class="mast">
 				<h1 id="hide">Relaxr</h1>
 				<nav class="mast-navigation">
-					<a id="navOption" href="#">About</a>
-					<a id="navOption" href="#">FAQ</a>
-					<a id="navOption" href="#">Team</a>
-					<a id="navOption" href="#">Contact Us</a>
-					<a id="navOption" href="#">Blog</a>
+					<a href="#">About</a>
+					<a href="#">FAQ</a>
+					<a href="#">Team</a>
+					<a href="#">Contact Us</a>
+					<a href="#">Blog</a>
 				</nav>
 			</header>
 			<div>
@@ -39,7 +39,15 @@
 					 Sed iaculis efficitur blandit. Suspendisse potenti. Fusce fermentum justo pellentesque dui varius mattis.
 					  Donec laoreet quis turpis hendrerit fringilla. Nulla nec iaculis lorem. Integer bibendum ante ac facilisis tincidunt.
 						 Phasellus ac lacus est. Fusce sit amet nisi eu ex consequat tincidunt.</p>
-				<a class="post-read-more" href="#">Read More &gt;</a>
+				<a class="post-read-more" id="readMore1" href="#">Read More &gt;</a>
+				<div class="post-content more-blog" id="moreBlog1">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod sit amet elit lacinia sollicitudin.
+					 Suspendisse tincidunt sit amet sapien eget hendrerit. Aenean eget ultricies urna. Maecenas a erat magna. Cras ornare hendrerit
+					  velit, non ullamcorper sapien pulvinar eu. In sed scelerisque augue. Nunc vel mi sollicitudin, accumsan neque id, ultrices massa.
+						 Maecenas dignissim, risus id viverra dapibus, metus lectus fringilla risus, et consectetur ipsum mi eget erat. Fusce non malesuada arcu.
+						  In faucibus nunc augue, et pretium metus feugiat vitae.</p>
+							<a class="post-read-more" id="readLess1" href="#">Read Less &lt;</a>
+				</div>
 			</article>
 			<article class="post clearfix">
 				<h2 class="post-title">I traveled across the globe thanks to Relaxr’s Excel auomation</h2>
@@ -48,7 +56,15 @@
 					 Sed iaculis efficitur blandit. Suspendisse potenti. Fusce fermentum justo pellentesque dui varius mattis.
 					  Donec laoreet quis turpis hendrerit fringilla. Nulla nec iaculis lorem. Integer bibendum ante ac facilisis tincidunt.
 						 Phasellus ac lacus est. Fusce sit amet nisi eu ex consequat tincidunt.</p>
-				<a class="post-read-more" href="#">Read More &gt;</a>
+				<a class="post-read-more" id="readMore2" href="#">Read More &gt;</a>
+				<div class="post-content more-blog" id="moreBlog2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod sit amet elit lacinia sollicitudin.
+					 Suspendisse tincidunt sit amet sapien eget hendrerit. Aenean eget ultricies urna. Maecenas a erat magna. Cras ornare hendrerit
+					  velit, non ullamcorper sapien pulvinar eu. In sed scelerisque augue. Nunc vel mi sollicitudin, accumsan neque id, ultrices massa.
+						 Maecenas dignissim, risus id viverra dapibus, metus lectus fringilla risus, et consectetur ipsum mi eget erat. Fusce non malesuada arcu.
+						  In faucibus nunc augue, et pretium metus feugiat vitae.</p>
+						<a class="post-read-more" id="readLess2" href="#">Read Less &lt;</a>
+				</div>
 			</article>
 		</section>
 
@@ -79,6 +95,12 @@
 <!--Bar with button-->
 		<section class="yellow-bar">
 			<button id="noInfo">Sign Up Now!</button>
+<!--JS pop up window-->
+			<div class="notification-window" id="notReady">
+				<h3>We are not ready to receive your information!</h3>
+				<button id="removeWindow">Return</button>
+
+			</div>
 		</section>
 
 			<footer class="keel">
@@ -87,7 +109,7 @@
       	<img class="twitter" src="images/twitter.png">
       	<img class="facebook" src="images/facebook.png">
 			</div>
-				<p>&copy; 2015, Relaxrbbb</p>
+				<p>&copy; 2015, Relaxr</p>
   		</div>
 			</footer>
 
